@@ -1,7 +1,6 @@
 #include<iostream>
 #include<queue>
 using namespace std;
- 
 int main()
 {
     int q,x,y;
@@ -36,7 +35,5 @@ int main()
                 que[idx].push(make_pair(x,y));
         }
     }
- 
- 
     return 0;
 }
